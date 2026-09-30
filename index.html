@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="LUNAR INTEL — plataforma demonstrativa de inteligência imobiliária">
+<title>LUNAR INTEL | Inteligência Imobiliária</title><link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="#">LUNAR<span> INTEL</span></a><nav><span class="pill">Protótipo acadêmico</span><label for="perfil">Perfil</label><select id="perfil"><option value="cliente">Cliente</option><option value="corretor">Corretor</option><option value="admin">Administrador</option></select></nav></header>
+<main class="wrap">
+<section class="hero"><p class="eyebrow">INTELIGÊNCIA PARA SUA PRÓXIMA CONQUISTA</p><h1>Encontre um imóvel<br><em>compatível com seus planos.</em></h1><p>Simule sua capacidade de compra e explore oportunidades do portfólio.</p></section>
+<section class="panel"><div class="section-head"><div><p class="eyebrow">SIMULAÇÃO FINANCEIRA</p><h2>Seu norte financeiro</h2></div><span class="pill">Regra de 30% da renda</span></div>
+<form id="sim-form" class="form-grid"><label>Renda bruta mensal (R$)<input id="renda" type="number" min="1" step="0.01" placeholder="6000" required></label><label>Idade<input id="idade" type="number" min="18" max="70" placeholder="28" required></label><label>Poupança disponível (R$)<input id="poupanca" type="number" min="0" step=".01" value="0"></label><label>FGTS disponível (R$)<input id="fgts" type="number" min="0" step=".01" value="0"></label><button class="primary" type="submit">Calcular e encontrar imóveis <span>→</span></button></form><p class="hint">Estimativa ilustrativa, não equivale à aprovação de financiamento.</p><div id="feedback" role="status" aria-live="polite"></div></section>
+<section class="catalog"><div class="section-head"><div><p class="eyebrow">PORTFÓLIO</p><h2>Imóveis disponíveis</h2></div><div class="filters"><select id="tipo"><option value="">Todos os tipos</option><option>Casa</option><option>Apartamento</option><option>Loft</option></select><select id="quartos"><option value="">Quartos</option><option value="1">1+</option><option value="2">2+</option><option value="3">3+</option></select></div></div><div id="results" class="cards"></div></section>
+<section class="panel secondary"><div class="section-head"><div><p class="eyebrow">ÁREA DO PERFIL</p><h2 id="role-title">Área do cliente</h2></div></div><div id="role-content"></div></section>
+</main><footer>© 2026 LUNAR INTEL · Protótipo para fins acadêmicos</footer>
+<script type="module" src="js/app.js"></script></body></html>
