@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Painel Administrativo | LUNAR INTEL</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav id="navbar"></nav>
+
+    <div class="container">
+        <!-- RF28/F24/RF30/F27 -->
+        <div class="stat-grid" id="stat-grid"></div>
+
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="usuarios">Usuários</button>
+            <button class="tab-btn" data-tab="imoveis">Imóveis</button>
+            <button class="tab-btn" data-tab="relatorio">Relatório</button>
+            <button class="tab-btn" data-tab="perfil">Perfil</button>
+        </div>
+
+        <!-- RF26/F23, RF27/F25 -->
+        <section id="tab-usuarios" class="tab-content active">
+            <div class="panel">
+                <h2><i class="fa-solid fa-users"></i> Usuários cadastrados</h2>
+                <div class="table-wrap">
+                    <table>
+                        <thead><tr><th>Nome</th><th>E-mail</th><th>Perfil</th><th>Status</th><th>Ações</th></tr></thead>
+                        <tbody id="tabela-usuarios"></tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- RF29/F26 -->
+        <section id="tab-imoveis" class="tab-content">
+            <div class="panel">
+                <h2><i class="fa-solid fa-house-chimney"></i> Todos os imóveis</h2>
+                <div class="table-wrap">
+                    <table>
+                        <thead><tr><th>Título</th><th>Tipo</th><th>Preço</th><th>Status</th><th>Corretor (ID)</th></tr></thead>
+                        <tbody id="tabela-imoveis"></tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="tab-relatorio" class="tab-content">
+            <div class="panel">
+                <h2><i class="fa-solid fa-chart-column"></i> Desempenho por corretor</h2>
+                <div class="table-wrap">
+                    <table>
+                        <thead><tr><th>Corretor</th><th>Vendas realizadas</th></tr></thead>
+                        <tbody id="tabela-corretores"></tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="tab-perfil" class="tab-content">
+            <div class="panel">
+                <h2><i class="fa-solid fa-user"></i> Meus dados</h2>
+                <div id="alerta-perfil"></div>
+                <form id="form-perfil">
+                    <div class="grid-form">
+                        <div class="input-group"><label>Nome</label><input type="text" id="perfil-nome"></div>
+                        <div class="input-group"><label>Telefone</label><input type="text" id="perfil-telefone"></div>
+                    </div>
+                    <button type="submit" class="btn">Salvar alterações</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/guard.js" data-perfil="ADMINISTRADOR"></script>
+    <script src="js/admin.js"></script>
+</body>
+</html>

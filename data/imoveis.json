@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "titulo": "Apartamento Jardins",
+    "descricao": "Excelente imovel do tipo apartamento em Jardins, Sao Paulo.",
+    "preco": 480000,
+    "areaTotal": 75,
+    "quartos": 2,
+    "banheiros": 2,
+    "tipo": "Apartamento",
+    "status": "Disponivel",
+    "endereco": {
+      "logradouro": "Rua das Flores, 100",
+      "numero": "100",
+      "complemento": "",
+      "bairro": "Jardins",
+      "cidade": "Sao Paulo",
+      "estado": "SP",
+      "cep": "01000-000"
+    },
+    "corretorId": 2,
+    "imagens": [
+      "https://picsum.photos/seed/lunarintel0/600/400"
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Casa Alphaville",
+    "descricao": "Excelente imovel do tipo casa em Alphaville, Barueri.",
+    "preco": 950000,
+    "areaTotal": 220,
+    "quartos": 4,
+    "banheiros": 3,
+    "tipo": "Casa",
+    "status": "Disponivel",
+    "endereco": {
+      "logradouro": "Rua das Flores, 101",
+      "numero": "101",
+      "complemento": "",
+      "bairro": "Alphaville",
+      "cidade": "Barueri",
+      "estado": "SP",
+      "cep": "01000-000"
+    },
+    "corretorId": 2,
+    "imagens": [
+      "https://picsum.photos/seed/lunarintel1/600/400"
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "Loft Vila Madalena",
+    "descricao": "Excelente imovel do tipo loft em Vila Madalena, Sao Paulo.",
+    "preco": 390000,
+    "areaTotal": 55,
+    "quartos": 1,
+    "banheiros": 1,
+    "tipo": "Loft",
+    "status": "Disponivel",
+    "endereco": {
+      "logradouro": "Rua das Flores, 102",
+      "numero": "102",
+      "complemento": "",
+      "bairro": "Vila Madalena",
+      "cidade": "Sao Paulo",
+      "estado": "SP",
+      "cep": "01000-000"
+    },
+    "corretorId": 2,
+    "imagens": [
+      "https://picsum.photos/seed/lunarintel2/600/400"
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Apartamento Moema",
+    "descricao": "Excelente imovel do tipo apartamento em Moema, Sao Paulo.",
+    "preco": 620000,
+    "areaTotal": 90,
+    "quartos": 3,
+    "banheiros": 2,
+    "tipo": "Apartamento",
+    "status": "Disponivel",
+    "endereco": {
+      "logradouro": "Rua das Flores, 103",
+      "numero": "103",
+      "complemento": "",
+      "bairro": "Moema",
+      "cidade": "Sao Paulo",
+      "estado": "SP",
+      "cep": "01000-000"
+    },
+    "corretorId": 2,
+    "imagens": [
+      "https://picsum.photos/seed/lunarintel3/600/400"
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "Casa Granja Viana",
+    "descricao": "Excelente imovel do tipo casa em Granja Viana, Cotia.",
+    "preco": 1250000,
+    "areaTotal": 300,
+    "quartos": 4,
+    "banheiros": 4,
+    "tipo": "Casa",
+    "status": "Disponivel",
+    "endereco": {
+      "logradouro": "Rua das Flores, 104",
+      "numero": "104",
+      "complemento": "",
+      "bairro": "Granja Viana",
+      "cidade": "Cotia",
+      "estado": "SP",
+      "cep": "01000-000"
+    },
+    "corretorId": 3,
+    "imagens": [
+      "https://picsum.photos/seed/lunarintel4/600/400"
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "Apartamento Tatuape",
+    "descricao": "Excelente imovel do tipo apartamento em Tatuape, Sao Paulo.",
+    "preco": 310000,
+    "areaTotal": 60,
+    "quartos": 2,
+    "banheiros": 1,
+    "tipo": "Apartamento",
+    "status": "Disponivel",
+    "endereco": {
+      "logradouro": "Rua das Flores, 105",
+      "numero": "105",
+      "complemento": "",
+      "bairro": "Tatuape",
+      "cidade": "Sao Paulo",
+      "estado": "SP",
+      "cep": "01000-000"
+    },
+    "corretorId": 3,
+    "imagens": [
+      "https://picsum.photos/seed/lunarintel5/600/400"
+    ]
+  },
+  {
+    "id": 7,
+    "titulo": "Studio Pinheiros",
+    "descricao": "Excelente imovel do tipo apartamento em Pinheiros, Sao Paulo.",
+    "preco": 270000,
+    "areaTotal": 35,
+    "quartos": 1,
+    "banheiros": 1,
+    "tipo": "Apartamento",
+    "status": "Disponivel",
+    "endereco": {
+      "logradouro": "Rua das Flores, 106",
+      "numero": "106",
+      "complemento": "",
+      "bairro": "Pinheiros",
+      "cidade": "Sao Paulo",
+      "estado": "SP",
+      "cep": "01000-000"
+    },
+    "corretorId": 3,
+    "imagens": [
+      "https://picsum.photos/seed/lunarintel6/600/400"
+    ]
+  },
+  {
+    "id": 8,
+    "titulo": "Casa Condominio Fechado",
+    "descricao": "Excelente imovel do tipo casa em Santo Amaro, Sao Paulo.",
+    "preco": 780000,
+    "areaTotal": 180,
+    "quartos": 3,
+    "banheiros": 3,
+    "tipo": "Casa",
+    "status": "Disponivel",
+    "endereco": {
+      "logradouro": "Rua das Flores, 107",
+      "numero": "107",
+      "complemento": "",
+      "bairro": "Santo Amaro",
+      "cidade": "Sao Paulo",
+      "estado": "SP",
+      "cep": "01000-000"
+    },
+    "corretorId": 3,
+    "imagens": [
+      "https://picsum.photos/seed/lunarintel7/600/400"
+    ]
+  },
+  {
+    "id": 9,
+    "titulo": "Apartamento Perdizes",
+    "descricao": "Excelente imovel do tipo apartamento em Perdizes, Sao Paulo.",
+    "preco": 540000,
+    "areaTotal": 80,
+    "quartos": 2,
+    "banheiros": 2,
+    "tipo": "Apartamento",
+    "status": "Disponivel",
+    "endereco": {
+      "logradouro": "Rua das Flores, 108",
+      "numero": "108",
+      "complemento": "",
+      "bairro": "Perdizes",
+      "cidade": "Sao Paulo",
+      "estado": "SP",
+      "cep": "01000-000"
+    },
+    "corretorId": 2,
+    "imagens": [
+      "https://picsum.photos/seed/lunarintel8/600/400"
+    ]
+  },
+  {
+    "id": 10,
+    "titulo": "Loft Itaim Bibi",
+    "descricao": "Excelente imovel do tipo loft em Itaim Bibi, Sao Paulo.",
+    "preco": 460000,
+    "areaTotal": 48,
+    "quartos": 1,
+    "banheiros": 1,
+    "tipo": "Loft",
+    "status": "Disponivel",
+    "endereco": {
+      "logradouro": "Rua das Flores, 109",
+      "numero": "109",
+      "complemento": "",
+      "bairro": "Itaim Bibi",
+      "cidade": "Sao Paulo",
+      "estado": "SP",
+      "cep": "01000-000"
+    },
+    "corretorId": 3,
+    "imagens": [
+      "https://picsum.photos/seed/lunarintel9/600/400"
+    ]
+  }
+]

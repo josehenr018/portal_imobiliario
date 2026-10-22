@@ -1,0 +1,17 @@
+{
+  "name": "lunar-intel",
+  "version": "1.0.0",
+  "description": "LUNAR INTEL - Sistema Imobiliario Inteligente (Projeto Semestral POO - BRIPROO_2026-2)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-session": "^2.1.0",
+    "express": "^4.19.2"
+  }
+}
